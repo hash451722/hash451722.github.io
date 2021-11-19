@@ -1,3 +1,63 @@
 body {
   margin: 0;
 }
+a {
+  text-decoration: none;
+}
+
+
+header {
+  background: #451722;
+  color: #f8f8f8;
+}
+h1 {
+  margin: 0;
+  padding: 2rem 2rem 1rem  2rem; /* 上 右 下 左 */
+  text-align: center;
+}
+.center {
+  text-align:center;
+}
+.btn {
+  display: inline-block;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  padding: 0.5rem 1rem;
+  color: rgba(255,255,255,1);
+  background-color: rgba(255,255,255,0.08);
+  border-color: rgba(255,255,255,0.2);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 0.4rem;
+}
+.btn:hover {
+  background-color: rgba(255,255,255,0.2);
+}
+
+
+
+article {
+  background: rgb(219, 219, 219);
+  margin: 1rem 3rem;
+  padding: auto 5rem; /*上下　左右*/
+  border-radius: 0.8rem;
+}
+article:hover {
+  background: rgb(190, 190, 190);
+}
+.contents {
+  padding: 0.5rem 2rem;
+}
+
+hr {
+  margin: 1rem 3rem;
+}
+
+footer {
+  margin: 1rem 3rem;
+}
+
+footer a:hover {
+  text-decoration: underline;
+  /* text-decoration-color:#FF0000; */
+}
